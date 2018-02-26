@@ -1,0 +1,56 @@
+body {
+    height: 100%;
+    background-color: pink;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.nav {
+    background-color:grey;
+    width: 25%;
+    align-content: column;
+    flex-direction: column;
+    height: 100%;
+    bottom: 0;
+}
+
+.content {
+    background-color: pink;
+    width: 45%;
+    padding: 40px;
+    height: 100%;
+}
+
+.mini-logo {
+    background-color: pink;
+    width: 25%;
+}
+
+.rocket {
+    width: 80%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    overflow: auto;
+    background-color: grey;
+}
+
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+/* Change the link color on hover  */
+ li a:hover {
+    background-color: #555;
+    color: white;
+} 
